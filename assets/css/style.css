@@ -238,6 +238,7 @@ input[type=submit] {
     width: 70%;
     padding: 30px;
     margin-bottom: 50px;
+    margin-left: 30px;
     }
     .auth-image {
       width: 40%;
@@ -323,7 +324,7 @@ input[type=submit] {
       .main-section{
        
         width: 98%;
-        margin-top: 50px; 
+        margin-top: 0px; 
         margin-left: 10px;
         
       }
@@ -349,9 +350,20 @@ input[type=submit] {
       margin: 20px 0 25px;
       overflow: auto;
     }
+
+    #masthead {
+      position: static;
+      margin-bottom: 0px;
         
         
         }
+
+    #main-container{
+      padding-top: 10px;
+    }
+        
+        
+        
         
       
 
