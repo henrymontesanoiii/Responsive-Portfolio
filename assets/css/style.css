@@ -226,6 +226,9 @@ input[type=submit] {
   .container {
     max-width: 980px;
   }
+  #logo {
+    margin-left: 30px;
+  }
   nav {
     
     margin-right: 75px;
@@ -234,14 +237,29 @@ input[type=submit] {
     float: left;
     width: 70%;
     padding: 30px;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
     }
     .auth-image {
       width: 40%;
        height: auto;
+    }
+       .work img {
+        width: 100%;
+        height: auto;
+        border: 0 none;
+        opacity: 0.8;
+      }
+
+      .work {
+        position: relative;
+        float: left;
+        width: 40%;
+        margin: 20px 0 25px;
+        overflow: auto;
+      }
        
    }
-  }
+  
 
   @media screen and (max-width: 768px) {
   
@@ -250,14 +268,14 @@ input[type=submit] {
       max-width: 768px;
     }
     body {
-      margin-left: 0px;
+      
       margin-top: 0px;
     }
     #logo {
       margin-left: 20px;
     }
     nav {
-      margin-left: 0px;
+      
       margin-right: 30px;
      }
     .main-section {
@@ -271,14 +289,23 @@ input[type=submit] {
       .auth-image {
       width: 50%;
        height: auto;
-       
-   }
-       
+      }
+
+      .work {
+        position: relative;
+        float: left;
+        width: 45%;
+        margin: 20px 0 25px;
+        overflow: auto;
+      }
+
+      
         
       }
     
 
     @media screen and (max-width: 640px){
+      
       body{
         margin-left: 0px;
       }
@@ -294,10 +321,11 @@ input[type=submit] {
         padding-bottom: 10px; 
       }
       .main-section{
-       float: none;
+       
         width: 98%;
         margin-top: 50px; 
         margin-left: 10px;
+        
       }
       .auth-image {
          width: 100%;
@@ -305,6 +333,21 @@ input[type=submit] {
         margin-top: 10px;
         margin-right: 25px;
         margin-bottom: 20px;
+    }
+
+    .work img {
+      width: 100%;
+      height: auto;
+      border: 0 none;
+      opacity: 0.8;
+    }
+
+    .work {
+      position: relative;
+      float: left;
+      width: 100%;
+      margin: 20px 0 25px;
+      overflow: auto;
     }
         
         
